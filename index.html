@@ -3,113 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Khadeer Basha – AI & ML Engineer showcasing projects, skills, and contact info." />
+  <meta name="description" content="Portfolio of Khadeer Basha – AI & ML Engineer and QA Automation Specialist." />
   <meta name="author" content="Khadeer Basha" />
-  <meta property="og:title" content="Khadeer Basha – Portfolio" />
-  <meta property="og:description" content="Showcasing AI/ML projects, skills, and more." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://yourdomain.com" />
-  <meta property="og:image" content="assets/profile.jpg" />
-  <link rel="icon" href="assets/favicon.ico" />
   <title>Khadeer Basha – Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header class="header">
-    <div class="container header__container">
-      <h1 class="header__brand">
-        <span class="header__logo" aria-hidden="true">👤</span> Khadeer Basha
-      </h1>
-      <nav class="nav" aria-label="Primary">
-        <ul class="nav__list">
-          <li><a href="#about" class="nav__link">About</a></li>
-          <li><a href="#projects" class="nav__link">Projects</a></li>
-          <li><a href="#skills" class="nav__link">Skills</a></li>
-          <li><a href="#contact" class="nav__link">Contact</a></li>
-        </ul>
-      </nav>
+  <!-- Sidebar Profile Menu -->
+  <aside class="sidebar">
+    <div class="sidebar__profile">
+      <img src="images/Khadeer.jpg" alt="Khadeer Basha" class="sidebar__avatar" />
+      <h1 class="sidebar__name">Khadeer Basha</h1>
+      <p class="sidebar__role">AI & ML Engineer</p>
+      <a href="Khadeer_Basha_Resume.pdf" download class="btn btn--secondary">Download Resume</a>
     </div>
-  </header>
-
-  <main>
-    <section class="hero" aria-label="Hero">
-      <div class="container hero__container">
-        <div class="hero__content">
-          <h2 class="hero__title">Hello, I'm Khadeer Basha</h2>
-          <p class="hero__subtitle">A passionate AI & ML Engineer</p>
-          <a href="#projects" class="btn btn--primary hero__cta">View My Work</a>
-        </div>
-        <div class="hero__image">
-          <img src="images/Khadeer.jpg" alt="Khadeer Basha" />
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about section">
-      <div class="container">
-        <h2 class="section__title">About Me</h2>
-        <p class="about__text">
-          I'm an AI & ML undergraduate with a strong foundation in Java, Python, and web development. I love building intelligent systems and visually engaging portfolio experiences. Currently pursuing B.Tech in AI & ML at Annamacharya Institute, graduating in Dec 2025.
-        </p>
-      </div>
-    </section>
-
-    <section id="projects" class="projects section">
-      <div class="container">
-        <h2 class="section__title">Projects</h2>
-        <div class="projects__grid">
-          <article class="project-card">
-            <h3 class="project-card__title">Weather Forecasting Web App</h3>
-            <p class="project-card__desc">Built with HTML, CSS, and JS. Displays real-time weather data using OpenWeather API.</p>
-            <a href="https://github.com/Khadeer1204/weather-app" class="project-card__link" target="_blank">View on GitHub</a>
-          </article>
-          <article class="project-card">
-            <h3 class="project-card__title">Customer Segmentation</h3>
-            <p class="project-card__desc">Used Python and K-Means clustering to segment e-commerce customers for targeted marketing.</p>
-            <a href="https://github.com/Khadeer1204/customer-segmentation" class="project-card__link" target="_blank">View on GitHub</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="skills section">
-      <div class="container">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li><span class="skills__name">Java (OOP)</span></li>
-          <li><span class="skills__name">Python (Data Science)</span></li>
-          <li><span class="skills__name">HTML/CSS</span></li>
-          <li><span class="skills__name">SQL</span></li>
-          <li><span class="skills__name">C++</span></li>
-          <li><span class="skills__name">Selenium, JUnit, TestNG</span></li>
-          <li><span class="skills__name">Git & GitHub</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="contact section">
-      <div class="container">
-        <h2 class="section__title">Contact</h2>
-        <p class="contact__text">Interested in working together or have a question? Reach out by email!</p>
-        <a href="mailto:khadeer.basha1204@gmail.com" class="btn btn--secondary contact__email">Send Email</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer__container">
-      <span>&copy; <span id="year"></span> Khadeer Basha. All Rights Reserved.</span>
-      <ul class="footer__social">
-        <li>
-          <a href="https://github.com/Khadeer1204" class="footer__icon" aria-label="GitHub" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/khadeer-basha-912b45258" class="footer__icon" aria-label="LinkedIn" target="_blank">LinkedIn</a>
-        </li>
+    <nav class="sidebar__nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </div>
-  </footer>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    <section id="about" class="section">
+      <h2 class="section__title">About Me</h2>
+      <p>
+        Enthusiastic and detail-oriented AI & ML undergraduate with strong foundations in Java, HTML, CSS, JavaScript, and SQL. Experienced in automation testing using Selenium Java, TestNG, JUnit, and Cucumber. Skilled in API testing with Postman and Rest Assured, and familiar with Agile methodology.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section__title">Projects</h2>
+      <div class="projects__grid">
+        <article class="project-card">
+          <h3>Customer Segmentation</h3>
+          <p>Hybrid ML + DL model using SAPK clustering. Technologies: Python, R, HTML, JS, CSS.</p>
+          <a href="https://github.com/Khadeer1204/customer-segmentation" target="_blank">View on GitHub</a>
+        </article>
+        <article class="project-card">
+          <h3>Weather Forecasting Web App</h3>
+          <p>Real-time weather data using HTML, CSS, JS, and OpenWeather API.</p>
+          <a href="https://github.com/Khadeer1204/weather-app" target="_blank">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section__title">Technical Skills</h2>
+      <ul class="skills__list">
+        <li>Java</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>SQL, MySQL, JDBC</li>
+        <li>Selenium Java, Cucumber, TestNG, JUnit</li>
+        <li>Postman, Rest Assured</li>
+        <li>Git, GitHub</li>
+        <li>JSON, Eclipse IDE</li>
+      </ul>
+    </section>
+
+    <section id="certifications" class="section">
+      <h2 class="section__title">Certifications</h2>
+      <ul>
+        <li>Problem Solving with C++</li>
+        <li>Machine Learning Online Course</li>
+        <li>Emerging Technologies – Data Science</li>
+        <li>Cloud Computing on AWS</li>
+      </ul>
+    </section>
+
+    <section id="internship" class="section">
+      <h2 class="section__title">Internship</h2>
+      <p><strong>QA Intern – Mphasis (Jan–May 2025)</strong></p>
+      <ul>
+        <li>Automated testing with Selenium + Java</li>
+        <li>JUnit, TestNG, Cucumber for BDD</li>
+        <li>API testing with Rest Assured & Postman</li>
+        <li>Agile methodology</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section__title">Contact</h2>
+      <form action="mailto:khadeer.basha1204@gmail.com" method="POST" enctype="text/plain" class="contact__form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Khadeer Basha. All Rights Reserved.</p>
+    </footer>
+  </main>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
