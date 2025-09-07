@@ -262,10 +262,9 @@ body {
   height: 100%;
   border-radius: 5px;
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
-  transition: width 1s cubic-bezier(.4,2.08,.55,.44);
+  transition: width 1s ease-in-out;
 }
 
-/* Skill levels */
 .skills__level--java     { width: 90%; }
 .skills__level--python   { width: 92%; }
 .skills__level--html     { width: 95%; }
@@ -308,15 +307,4 @@ body {
 .btn--primary:hover,
 .btn--primary:focus {
   background: var(--color-accent);
-  color: #fff;
-}
-
-.btn--secondary {
-  background: var(--color-secondary);
-  color: var(--color-title);
-}
-
-.btn--secondary:hover,
-.btn--secondary:focus {
-  background: var(--color-accent);
-  color:
+  color: #
