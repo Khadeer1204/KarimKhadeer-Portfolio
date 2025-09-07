@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Khadeer Basha – AI & ML Engineer showcasing projects, skills, and contact info." />
+  <meta name="author" content="Khadeer Basha" />
+  <meta property="og:title" content="Khadeer Basha – Portfolio" />
+  <meta property="og:description" content="Showcasing AI/ML projects, skills, and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:image" content="assets/profile.jpg" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <title>Khadeer Basha – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <h1 class="header__brand">
+        <span class="header__logo" aria-hidden="true">👤</span> Khadeer Basha
+      </h1>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <h2 class="hero__title">Hello, I'm Khadeer Basha</h2>
+          <p class="hero__subtitle">A passionate AI & ML Engineer</p>
+          <a href="#projects" class="btn btn--primary hero__cta">View My Work</a>
+        </div>
+        <div class="hero__image">
+          <img src="images/Khadeer.jpg" alt="Khadeer Basha" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <p class="about__text">
+          I'm an AI & ML undergraduate with a strong foundation in Java, Python, and web development. I love building intelligent systems and visually engaging portfolio experiences. Currently pursuing B.Tech in AI & ML at Annamacharya Institute, graduating in Dec 2025.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+          <article class="project-card">
+            <h3 class="project-card__title">Weather Forecasting Web App</h3>
+            <p class="project-card__desc">Built with HTML, CSS, and JS. Displays real-time weather data using OpenWeather API.</p>
+            <a href="https://github.com/Khadeer1204/weather-app" class="project-card__link" target="_blank">View on GitHub</a>
+          </article>
+          <article class="project-card">
+            <h3 class="project-card__title">Customer Segmentation</h3>
+            <p class="project-card__desc">Used Python and K-Means clustering to segment e-commerce customers for targeted marketing.</p>
+            <a href="https://github.com/Khadeer1204/customer-segmentation" class="project-card__link" target="_blank">View on GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li><span class="skills__name">Java (OOP)</span></li>
+          <li><span class="skills__name">Python (Data Science)</span></li>
+          <li><span class="skills__name">HTML/CSS</span></li>
+          <li><span class="skills__name">SQL</span></li>
+          <li><span class="skills__name">C++</span></li>
+          <li><span class="skills__name">Selenium, JUnit, TestNG</span></li>
+          <li><span class="skills__name">Git & GitHub</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <p class="contact__text">Interested in working together or have a question? Reach out by email!</p>
+        <a href="mailto:khadeer.basha1204@gmail.com" class="btn btn--secondary contact__email">Send Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <span>&copy; <span id="year"></span> Khadeer Basha. All Rights Reserved.</span>
+      <ul class="footer__social">
+        <li>
+          <a href="https://github.com/Khadeer1204" class="footer__icon" aria-label="GitHub" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/khadeer-basha-912b45258" class="footer__icon" aria-label="LinkedIn" target="_blank">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
