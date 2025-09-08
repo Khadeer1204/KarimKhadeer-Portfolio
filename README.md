@@ -47,8 +47,3 @@ The goal is to present my work in a visually engaging and professional format th
 🙌 Acknowledgments
 Thanks to the open-source community and my mentors for inspiring this journey. This portfolio is a reflection of my dedication to continuous learning and professional growth.
 
----
-
-Let me know if you'd like to add a **project showcase section**, a **custom domain setup**, or even a **dark mode toggle**. We can keep leveling it up!
-
-
